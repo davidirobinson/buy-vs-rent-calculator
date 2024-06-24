@@ -1,13 +1,10 @@
 #
 # A Buy vs Rent calculator for the New Zealanders
 #
-# Dependencies:
-#   $ pip install numpy numpy-financial argparse
-#
 # Key Assumptions:
 # - You intend to live in the house you're buying, so the mortgage repayment supplants rent
 # - The comparison between buying & renting scenarios is based on the minimum of the two cash flows to service each living situation,
-#   and the difference is invested under the cheaper living scenario
+#   and the difference is added & invested under the cheaper of the two scenarios
 # - You don't sell the house you own
 #
 
